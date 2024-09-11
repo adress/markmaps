@@ -1,0 +1,111 @@
+# Análisis de Datos
+
+## 1. Proceso de Análisis de Datos (Nivel Técnico)
+### Etapas del Proceso de Análisis de Datos
+- **Definir las Preguntas del Análisis**
+  - Clarificar qué se quiere aprender o descubrir a través de los datos.
+  - **Ejemplo**: ¿Qué factores contribuyeron a la disminución de las ventas?
+
+- **Preparar los Datos**
+  - Recopilar y organizar datos relevantes de fuentes internas o externas.
+  - Seleccionar datos estructurados y no estructurados según el tipo de análisis requerido.
+  - **Ejemplo**: Recopilar datos de ventas, comportamiento del cliente y competencia.
+
+- **Procesar los Datos**
+  - Limpiar los datos: Eliminar errores, duplicados y valores atípicos.
+  - Transformar los datos en un formato adecuado para el análisis.
+  - Asegurar que los datos sean consistentes y confiables.
+  - **Ejemplo**: Corregir valores atípicos en el historial de ventas o eliminar duplicados.
+
+- **Analizar los Datos**
+  - Aplicar herramientas y técnicas analíticas como regresión, correlación y segmentación.
+  - Identificar patrones, tendencias o relaciones dentro de los datos.
+  - **Ejemplo**: Usar análisis de correlación para ver si existe una relación entre la competencia y la disminución de ventas.
+
+- **Generar Insights**
+  - Extraer conclusiones clave a partir de los datos analizados.
+  - Formular hipótesis o recomendaciones basadas en los resultados.
+  - **Ejemplo**: Encontrar que las ventas disminuyeron cuando un competidor lanzó un producto similar.
+
+- **Visualizar y Comunicar los Resultados**
+  - Crear gráficos, tablas y visualizaciones para presentar los hallazgos de manera clara.
+  - Usar narrativas de datos para explicar los resultados a las partes interesadas.
+  - **Ejemplo**: Crear gráficos interactivos que muestren las tendencias de ventas y su relación con las promociones.
+
+### Ejemplo del Proceso de Análisis de Datos en la Práctica
+- **Pregunta**: ¿Por qué están bajando las ventas en la región X?
+- **Preparar**: Recopilar datos históricos de ventas, competencia y comportamiento del cliente.
+- **Procesar**: Limpiar datos duplicados y corregir registros incompletos.
+- **Analizar**: Encontrar correlaciones entre promociones de la competencia y la disminución de ventas.
+- **Generar Insights**: Determinar que las ventas cayeron debido a un aumento en la actividad competitiva.
+- **Visualizar**: Presentar un gráfico de líneas que muestra las ventas cayendo cuando los competidores lanzaron ofertas.
+
+## 2. Herramientas Utilizadas en el Proceso de Análisis de Datos
+- **Lenguajes de Programación**
+  - **R**: Análisis estadístico y visualización de datos.
+  - **Python**: Modelado, análisis de datos y visualización.
+- **Técnicas Analíticas**
+  - **Cinco Porqués**: Para identificar la causa raíz de un problema.
+  - **Análisis de Brechas**: Comparar el estado actual con el estado deseado.
+  - **Cuestionar lo No Considerado**: Descubrir información faltante o áreas no evaluadas previamente.
+
+## 3. Ciclo de Vida de los Datos (Subconjunto del Proceso de Análisis)
+- **Planificación** 
+  - Definir qué datos se necesitan, cómo se gestionarán y cuáles serán los responsables de su tratamiento.
+  - Establecer los objetivos y resultados esperados.
+
+- **Captura**
+  - Recopilar los datos desde diversas fuentes (internas o externas, como bases de datos, encuestas, etc.).
+  - **Ejemplo**: Captura de datos de ventas, encuestas a clientes, informes del mercado.
+
+- **Gestión**
+  - Organizar y almacenar los datos.
+  - Asegurar la calidad, integridad y seguridad de los datos.
+  - **Ejemplo**: Uso de bases de datos estructuradas (SQL) para mantener los datos organizados y protegidos.
+
+- **Análisis**
+  - Aplicar técnicas analíticas para extraer información significativa.
+  - **Ejemplo**: Uso de herramientas como Python para realizar análisis de tendencias.
+
+- **Archivo**
+  - Guardar los datos que ya no se utilizan activamente, pero que podrían ser necesarios en el futuro.
+  - **Ejemplo**: Almacenamiento en la nube de datos históricos de ventas.
+
+- **Destrucción**
+  - Eliminar los datos de forma segura cuando ya no sean necesarios, cumpliendo con las normativas de privacidad.
+  - **Ejemplo**: Eliminación de datos antiguos conforme a la normativa GDPR.
+
+## 4. Roles en el Proceso de Análisis de Datos
+- **Científico de Datos**
+  - Se encarga de trabajar con datos sin procesar, crear modelos predictivos y responder preguntas no estructuradas.
+  - Descubre patrones ocultos en los datos y formula nuevas preguntas.
+  
+- **Analista de Datos**
+  - Responde preguntas específicas con datos existentes y proporciona insights procesables.
+  - **Habilidades Clave del Analista de Datos**
+    - **Curiosidad**: Busca descubrir nuevos patrones o preguntas.
+    - **Comprensión del Contexto**: Relaciona los datos con el entorno del negocio.
+    - **Mentalidad Técnica**: Descompone problemas complejos en pasos manejables.
+    - **Diseño de Datos**: Organiza los datos de forma lógica y clara.
+    - **Estrategia de Datos**: Gestiona los recursos, herramientas y personas necesarias para el análisis.
+
+## 5. Herramientas de Visualización de Datos (Subconjunto del Análisis)
+- **Tableau**
+  - Creación de gráficos interactivos y paneles.
+- **Looker**
+  - Conexión directa a bases de datos para análisis en tiempo real.
+- **Comparación**
+  - **Hojas de Cálculo**: Adecuadas para análisis manuales de pequeños volúmenes de datos (Google Sheets, Excel).
+  - **Bases de Datos**: Ideal para almacenar grandes volúmenes de datos y realizar análisis complejos (SQL).
+
+## 6. Pensamiento Analítico (Habilidad para el Análisis de Datos)
+- **Visualización**
+  - Convertir los datos en gráficos y visualizaciones comprensibles.
+- **Estrategia**
+  - Desarrollar un plan de acción basado en los insights.
+- **Orientación hacia Problemas**
+  - Resolver problemas mediante datos organizados y estructurados.
+- **Correlación**
+  - Encontrar relaciones entre diferentes variables para entender patrones.
+- **Perspectiva Global y Detallada**
+  - Mantener una visión tanto global como detallada de los datos.
